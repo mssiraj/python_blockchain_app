@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 Start a blockchain node server,
 
 ```sh
-$ export FLASK_APP=node_server.py
+$ export FLASK_APP=node_server.py (windows users should set a user environment variable for this)
 $ flask run --port 8000
 ```
 
